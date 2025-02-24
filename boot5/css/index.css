@@ -1,0 +1,590 @@
+
+
+/* NavBar Styling */
+body{
+    background-color: #171717;
+}
+.navbar{
+    background:#171717;
+    
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+    color: white;
+    transition: .8s;
+}
+.navbar-brand .fa-hamburger{
+    color: goldenrod;
+}
+/* .navbar-brand .fa-hamburger:hover{
+    color: white;
+} */
+.nav-link{
+    color: white;
+    margin-right: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+}
+.navlinke{
+    color: goldenrod;
+    font-weight: bold ;
+}
+ input[type="email"]::placeholder {
+      font-style: italic;
+    }
+ input[type="email"]{
+      border-radius: 12px;
+      border: 2px solid goldenrod;
+      outline: none;
+    }
+.navbar .fa-bars{
+    color: goldenrod;
+    border: none;
+}
+.nav-link:hover{
+    color: goldenrod;
+    transition: .2s ease-in;
+    border-top: 2px solid goldenrod;
+}
+/* .main{
+    margin-left: 70px;
+} */
+
+
+
+
+
+/* Hero section 1 Styling */
+
+.firsthero{
+    /* border: 1px solid green; */
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../../img/hero1.jpg);
+    padding: 10%;
+    background-size: cover;
+    line-height: 2px;
+    border-radius: 18px;
+}
+.firsthero .let{
+    color: white;
+    font-family: cursive;
+    font-size: 70px;
+}
+.firsthero .cook{
+    color: white;
+    letter-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 150px;
+}
+.firsthero .letcook{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+/*Hero Section 2 Styling */
+.aboutusheading{
+    text-align: center;
+    color: white;
+}
+.gold{
+    color: goldenrod;
+}
+.secondhero .aboutusbrief{
+    color: white;
+    line-height: 28px;
+    font-size: 20px;
+}
+.secondhero .viewmore{
+    color: white;
+    background-color: goldenrod;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-left: 46%; */
+}
+
+
+
+
+/* Hero 3 Styling */
+.hero3 .recipeheading{
+    color: white;
+    text-align: center;
+    margin-top: 55px;
+    font-size: 38px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero3 .geningre{
+    /* margin-left: 50px; */
+    line-height: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero3 .geningre h6{
+    color: rgb(170, 169, 169);
+}
+.hero3 .geningre .viewmore{
+    border: 2px solid goldenrod;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero3 .geningre .viewmore:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}
+.hero3 .latecake{
+    height: 90%;
+    width: 80%;
+
+}
+
+
+
+/* Hero 4 Styling */
+.hero4 .geningre{
+    /* margin-left: 50px; */
+    line-height: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero4 .geningre h6{
+    color: rgb(170, 169, 169);
+}
+.hero4 .geningre .viewmore{
+    border: 2px solid goldenrod;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero4 .geningre .viewmore:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}
+.hero4 .later{
+    height: 90%;
+    width: 80%;
+}
+
+
+
+
+
+/* Hero 5 Styling */
+.hero5 .geningre{
+    /* margin-left: 50px; */
+    line-height: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero5 .geningre h6{
+    color: rgb(170, 169, 169);
+}
+.hero5 .geningre .viewmore{
+    border: 2px solid goldenrod;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero5 .geningre .viewmore:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}
+.hero5 img{
+    height: 90%;
+    width: 80%;
+}
+
+/* Hero 6 Styling */
+.hero6 .videoles{
+    color: white;
+    text-align: center;
+}
+/* .hero6 .vid1{
+    margin-left: 140px;
+} */
+.hero6 .vidview{
+    text-align: center;
+    /* border: 1px solid white; */
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../../img/cupcakechoco.jpg);
+    background-size: cover;
+    padding-top: 6%;
+    height: 200px;
+    width: 200px;
+}
+.hero6 .vidview a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.hero6 .utube{
+    width: 200px;
+    height: 200px;
+}
+.hero6 .viewmore{
+    border: 2px solid goldenrod;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero6 .chfvid{
+    width:1000px;
+    height:500px;
+}
+/* .hero6 .vidview a:hover{
+    transform: scale(1.1);
+    transition: .7s;
+} */
+
+
+
+
+/* Hero 7 styling */
+.hero7 .testibrief{
+    color: white;
+    text-align: center;
+}
+.hero7 .antony{
+    color: white;
+}
+.hero7 .wrk{
+    color: rgb(170, 169, 169);
+}
+.hero7 .antest{
+    color: white
+}
+.hero7 .testviewmore{
+    border: 2px solid goldenrod;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero7 .antpic{
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+.hero7 .mestest{
+    height: 80%;
+    width: 50%;
+}
+
+
+
+
+
+/* Footer Hero 8 Styling */
+.hero8{
+    background-color: #1b1a1a;
+    border-radius: 20px ;
+}
+.hero8 .footings{
+    color: rgb(170, 169, 169);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
+
+}
+.hero8 .fabe{
+    text-decoration: none;
+    color: goldenrod;
+}
+.hero8 .fabe:hover{
+    transform: scale(1.1);
+}
+
+.hero8 .backtoup{
+    background-color: goldenrod;
+    font-weight: bold;
+}
+.hero8 .backtoup:hover{
+    color: goldenrod;
+    background-color: #171717;
+}
+
+
+
+footer{
+    padding: 80px 0px;
+    color: black;
+    background-color: #333232;
+}
+
+footer h3, footer h4{
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+    padding: 5px;
+
+}
+footer li{ padding: 5px;}
+footer li a:hover{
+    color: goldenrod;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    
+    
+}
+footer .fa-angle-right{
+    color: goldenrod;
+}
+h3, p{
+    color: white;
+}
+.social-media-icons{
+    letter-spacing: 45px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 846px){
+    .firsthero .let{
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .firsthero .cook{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .firsthero .letcook{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+    }
+
+    .secondhero .hihi{
+        display: none;
+    }
+
+    .hero3 .latecake, .hero5 .latecake{
+        height: 60%;
+        width: 100%;
+        
+    }
+    .aboutusbrief{
+        font-size: 10px;
+        text-align: justify;
+    }
+    .hero3 .geningre .viewmore{
+        margin-left: 35%;
+    }
+    .hero3 .geningre, .hero5 .geningre {
+        margin-top: -200px;
+        /* line-height: 50px; */
+        color: white;
+        line-height: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .hero4 .later{
+        height: 60%;
+        width: 100%; 
+        order: 1;
+    }
+    .hero4 .geningre .viewmore{
+        margin-left: 35%;
+    }
+    .hero4 .geningre{
+        /* line-height: 50px; */
+        order: 2;
+        margin-top: -200px;
+        color: white;
+        line-height: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .hero6 .utube{
+        width: 100%;
+    }
+    .hero6 .sp{
+        margin-top: 5px;
+    }
+    .hero6 .chfvid{
+        width: 100%;
+        height: 200px;
+    }
+    .hero5 .geningre .viewmore{
+        margin-left: 35%;
+    }
+
+    .hero7 .mestest{
+        display: none;
+        height: 80%;
+        width: 50%;
+    }
+    .hero7 .antest{
+        margin-top: -50px;
+    }
+    .hero7 .testviewmore{
+        margin-left: 35%;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+animation
+/* right animation */
+.rightanim{
+    visibility: hidden;
+}
+.right{
+    animation-name: right;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes right{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes right{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+/* left */
+.leftanim{
+    visibility: hidden;
+}
+.left{
+    animation-name: left;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes left{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes left{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+/* zoom animation */
+.zoomanim{
+    visibility: hidden;
+}
+.zoom{
+    animation-name: zoom;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes zoom{
+    
+        from {transform: scale(0);}
+          to {transform: scale(1);}
+    
+}
+
+/* slide */
+.slideanim{
+    visibility: hidden;
+}
+.slide{
+    animation-name: slide;
+    animation-duration: 3s;
+    visibility: visible;
+}
+
+@keyframes slide{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+
+    }
+}
+@-webkit-keyframes slide{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/* pulse animation */
+.pulser{
+    animation: pulse 3s infinite ease-in-out;
+}
+@keyframes pulse{
+    0%{
+        transform: translate(0, 0) scale(1);
+    }
+    50%{
+        transform: translate(0,-1%) scale(1.0);
+        box-shadow: 10px 10px 15px 10px #cbced1, -5px -5px 10px -5px white;
+    }
+    100%{
+        transform: translate(0,0), scale(1);
+    }
+}

@@ -1,0 +1,35 @@
+/* Styling of Recipe1st */
+.recipe1st, .recipe2nd{
+    color: whitesmoke;
+}
+
+/* Styling of Recipe2nd */
+.main-img{
+    width:400px;
+    height:600px;
+    border-radius: 50px;
+}
+.mainer-img{
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+/* Styling of the divs */
+.fight{
+    border-right: 6px solid goldenrod;
+    padding: 0 50px;
+    border-radius: 50px;
+    /* position: relative; */
+
+}
+/* .fight::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-right: 6px solid goldenrod;
+    height: 100%;
+} */
+

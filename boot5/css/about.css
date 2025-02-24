@@ -1,0 +1,367 @@
+/* Hero 1st styling */
+.hero1st{
+    color: white;
+
+}
+
+/* Hero 2nd styling */
+.hero2nd{
+    color: white;
+}
+.hero2nd img{
+    height: 600px;
+    width: 80%;
+}
+.hero2nd p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* Hero 3rd styling */
+.hero3rd{
+    margin-top: 65px;
+    color: white;
+}
+
+.cuurent{
+    border-top: 3px solid goldenrod;
+}
+.concurr{
+    transform: scale(0.9);
+}
+
+
+/* Hero 4th styling */
+.hero4th .card{
+    background-color: #0c0c0c;
+    color: white;
+}
+/* Change the color of active pagination bullet */
+.swiper-pagination-bullet-active {
+    background-color: goldenrod; /* Replace with the color you want */
+}
+
+/* Change the color of inactive pagination bullets */
+.swiper-pagination-bullet {
+    background-color: goldenrod; /* Replace with the color you want */
+}
+
+
+
+
+/* Hero 5th styling */
+.hero5th{
+    margin-top: 10%;
+}
+.hero5th h3, .hero5th p{
+    color: white;
+    text-align: justify;
+}
+.hero5th .btn{
+    background-color: goldenrod;
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+.hero5th .btn{
+    font-weight: bolder;
+}
+.hero5th img{
+    height: 100px;
+    width: 80%;
+    border-radius: 20px;
+}
+.hero5th .spons{
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+
+
+/* Hero 6th styling */
+.hero6th{
+    margin-top: 50px;
+}
+
+.hero6th h3{
+    color: white;
+}
+
+.hero6th ul li{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.hero6th img{
+    height: 600px;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive About Page */
+@media (max-width: 846px){
+    .hero2nd p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .hero2nd .br{
+        display: none;
+    }
+    .hero2nd img{
+        height: 250px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+
+    .hero6th img{
+        height: 250px;
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero6th ul li{
+        margin-left: -30px;
+        list-style: none;
+        font-size: 15px;
+
+    }
+    .ist{
+        margin-left: 24px;
+    }
+    .swiper-slide img{
+        height: 40%;
+    }
+
+    .hero5th .spons{
+        margin-top: 30px;
+    }
+
+    .hero5th img{
+        height: 1px;
+        width: 2px;
+        border-radius: 10px;
+    }
+
+    .hero5th .dnd1{
+        display: none;
+    }
+    
+
+    @keyframes right{
+        0%{
+            opacity: 0;
+            -webkit-transform: translateX(0%);
+        }
+        100%{
+            opacity: 0;
+            -webkit-transform: translateX(0%);
+        }
+    }
+    @-webkit-keyframes right{
+        0%{
+            opacity: 0;
+            -webkit-transform: translateX(0%);
+        }
+        100%{
+            opacity: 0;
+            -webkit-transform: translateX(0%);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+animation
+/* right animation */
+.rightanim{
+    visibility: hidden;
+}
+.right{
+    animation-name: right;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes right{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes right{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+/* left */
+.leftanim{
+    visibility: hidden;
+}
+.left{
+    animation-name: left;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes left{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes left{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+/* zoom animation */
+.zoomanim{
+    visibility: hidden;
+}
+.zoom{
+    animation-name: zoom;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes zoom{
+    
+        from {transform: scale(0);}
+          to {transform: scale(1);}
+    
+}
+
+/* slide */
+.slideanim{
+    visibility: hidden;
+}
+.slide{
+    animation-name: slide;
+    animation-duration: 3s;
+    visibility: visible;
+}
+
+@keyframes slide{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+
+    }
+}
+@-webkit-keyframes slide{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-70%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/* pulse animation */
+.pulser{
+    animation: pulse 3s infinite ease-in-out;
+}
+@keyframes pulse{
+    0%{
+        transform: translate(0, 0) scale(1);
+    }
+    50%{
+        transform: translate(0,-1%) scale(1.0);
+        box-shadow: 10px 10px 15px 10px #cbced1, -5px -5px 10px -5px white;
+    }
+    100%{
+        transform: translate(0,0), scale(1);
+    }
+}
+
+
+
+
+
